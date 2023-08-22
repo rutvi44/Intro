@@ -1,0 +1,48 @@
+/* Reset some default margin and padding values */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for the card */
+  .card-body {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the image */
+  .card-body img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the heading */
+  h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the paragraph */
+  p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the footer */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
